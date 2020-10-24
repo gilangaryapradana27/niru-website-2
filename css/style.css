@@ -78,3 +78,20 @@ a {
 	font-weight: bold;
 	border-radius: 3px;
 }
+.container-dua button:hover {
+	cursor: pointer;
+}
+
+/*container tiga*/
+.container-tiga {
+	display: flex;
+	justify-content: center;
+	margin:25px 0;
+}
+.container-tiga .header1, .header2, .header3 {
+	width: 25%;
+	text-align: center;
+}
+.container-tiga .header1 h3, .header2 h3, .header3 h3 {
+	padding-bottom: 20px;
+}
