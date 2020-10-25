@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: Helvetica;
+	font-family: 'Montserrat', sans-serif;
 }
 a {
 	text-decoration: none;
@@ -15,7 +15,9 @@ a {
 	width: 100%;
 	height: 550px;
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-image: url(../img/background.jpg);
+	background-position: 0 -20px;
 }
 /*Container satu*/
 .container-satu{
@@ -27,6 +29,7 @@ a {
 	padding: 0 15px;
 	font-size: 25px;
 	color: #FFFFFF;
+	font-family: 'Vampiro One', cursive;
 }
 .container-satu .bar, .bar2{
 	height: 80px;
@@ -89,7 +92,7 @@ a {
 	margin:25px 0;
 }
 .container-tiga .header1, .header2, .header3 {
-	width: 25%;
+	width: 20%;
 	text-align: center;
 }
 .container-tiga .header1 h3, .header2 h3, .header3 h3 {
